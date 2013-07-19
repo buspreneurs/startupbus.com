@@ -1,79 +1,149 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class='no-js' lang='en'>
+	<!--<![endif]-->
+	<head>
+		<meta charset='utf-8' />
+		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+		<title>The StartupBus - Re-launching Soon</title>	
+		
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="images/favicon.png" />
+		
+		<link rel="stylesheet" href="css/maximage.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" charset="utf-8" />
+		
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		
+		<!--[if IE 6]>
+			<style type="text/css" media="screen">
+				.gradient {display:none;}
+			</style>
+		<![endif]-->
+		<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-18686147-4']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type='text/javascript' src='http://americas.startupbus.com/wp-content/plugins/trafficanalyzer/js/ta_loaded.js.php?hid=bc24dca07994e150b662770ecdd80127&aoid='></script>
+	</head>
+	<body>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Startupbus.com : StartupBus.com Static Website - THIS IS LIVE" />
+		<!-- Social Links -->
+		<nav class="social-nav">
+			<ul>
+				<li><a href="https://www.facebook.com/TheStartupBus"><img src="images/icon-facebook.png" /></a></li>
+				<li><a href="https://twitter.com/thestartupbus"><img src="images/icon-twitter.png" /></a></li>
+			</ul>
+		</nav>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+		<!-- Switch to full screen -->
+		<button class="full-screen" onclick="$(document).toggleFullScreen()"></button>
 
-    <title>Startupbus.com</title>
-  </head>
+		<!-- Site Logo -->
+		<div id="logo">startupbus</div>
 
-  <body>
+		<!-- Slider Controls -->
+		<a href="" id="arrow_left"><img src="images/arrow-left.png" alt="Slide Left" /></a>
+		<a href="" id="arrow_right"><img src="images/arrow-right.png" alt="Slide Right" /></a>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/buspreneurs/startupbus.com">View on GitHub</a>
+		<!-- Home Page -->
+		<section class="content show" id="home">
+			<h1>Welcome</h1>
+			<h5>Our new site is coming soon!</h5>
+			<p>StartupBus.com is currently undergoing a revamp. We will soon be launching a new site with details about our 2014 competitions - stay tuned for updates by following <a href="https://twitter.com/thestartupbus">@TheStartupBus</a> on Twitter!</p>
+			<p>If you have any questions, comments, or concerns please e-mail <a href="mailto:jonmarkgo@startupbus.com">jonmarkgo@startupbus.com</a></p>
+			<p><!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="http://startupbus.us2.list-manage1.com/subscribe/post?u=7daf639b4fcc37252954187c0&amp;id=d72284805e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<h2>Sign up to hear when we re-launch</h2>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
 
-          <h1 id="project_title">Startupbus.com</h1>
-          <h2 id="project_tagline">StartupBus.com Static Website - THIS IS LIVE</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/buspreneurs/startupbus.com/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/buspreneurs/startupbus.com/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Startupbus.com maintained by <a href="https://github.com/buspreneurs">buspreneurs</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+<!--End mc_embed_signup--></p>
+		</section>
+		
+		<!-- Background Slides -->
+		<div id="maximage">
+			<div>
+				<img src="images/backgrounds/startupbus.jpg" alt="" />
+				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
+			</div>
+			<div>
+				<img src="images/backgrounds/startupbus2.jpg" alt="" />
+				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
+			</div>
+			<div>
+				<img src="images/backgrounds/startupbus3.jpg" alt="" />
+				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
+			</div>
+			<div>
+				<img src="images/backgrounds/startupbus4.jpg" alt="" />
+				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
+			</div>
+			<div>
+				<img src="images/backgrounds/startupbus5.jpg" alt="" />
+				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
+			</div>
+		</div>
+		
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
+		<script src="js/jquery.easing.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fullscreen.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.ba-hashchange.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				$('#maximage').maximage({
+					cycleOptions: {
+						fx: 'fade',
+						speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
+						timeout: 5000,
+						prev: '#arrow_left',
+						next: '#arrow_right',
+						pause: 0,
+						before: function(last,current){
+							if(!$.browser.msie){
+								// Start HTML5 video when you arrive
+								if($(current).find('video').length > 0) $(current).find('video')[0].play();
+							}
+						},
+						after: function(last,current){
+							if(!$.browser.msie){
+								// Pauses HTML5 video when you leave it
+								if($(last).find('video').length > 0) $(last).find('video')[0].pause();
+							}
+						}
+					},
+					onFirstImageLoaded: function(){
+						jQuery('#cycle-loader').hide();
+						jQuery('#maximage').fadeIn('fast');
+					}
+				});
+	
+				// Helper function to Fill and Center the HTML5 Video
+				jQuery('video,object').maximage('maxcover');
+	
+			});
+		</script>
   </body>
 </html>

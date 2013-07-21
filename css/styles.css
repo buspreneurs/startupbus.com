@@ -57,7 +57,7 @@ a:hover {text-decoration:underline;}
 }
 
 #logo {
-	font-family: 'Benton-Sans', serif;
+	font-family: 'Benton-Sans', sans-serif;
 	font-size: 49px;
 	bottom:40px;
 	height:auto;

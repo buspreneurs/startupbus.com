@@ -1,2 +1,4 @@
 name: "StartupBus"
 permalink: pretty
+
+exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md"]

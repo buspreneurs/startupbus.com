@@ -1,11 +1,12 @@
 /* ========================================================= Typography ===*/
 h1, h2, h3, h4, h5, h6{
+  color: #2E323A;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 p{
-  color: #777;
-  font-family: 'Maven Pro', sans-serif;
+  color: #2E323A;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 a{

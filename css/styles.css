@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6{
 h1{font-size: 63px; line-height: 70px; padding: 0; margin: 0;}
 h5{font-size: 28px; line-height: 35px; padding: 0; margin: 0; color: #b7b7b7;}
 
+.clearfix {clear: both;}
+
 a {
 	color: #b7b7b7;
 	text-decoration:none;
@@ -48,14 +50,21 @@ a:hover {text-decoration:underline;}
 /* Set Page Elements */
 .content { 
 	float:left;
-	margin:40px;
+	margin:0 auto;
 	position:absolute;
 	top:200px;
-	width:600px;
+	width:940px;
 	z-index:9999;
 	-webkit-font-smoothing:antialiased;
 }
+.col300 {float: left; width: 300px; margin-left: 20px;}
+.col460 {float: left; width: 460px; margin-left: 20px;}
+.col940 {float: left; width: 940px;}
+.first {margin-left: 0;}
 
+.col460 p {height:130px;}
+
+#header {float: left;}
 #logo {
 	font-family: 'Benton-Sans', sans-serif;
 	font-size: 49px;
@@ -124,3 +133,29 @@ button.full-screen:hover {opacity: 1;}
 #arrow_left {
 	right:95px;
 }
+p {color: #fff;}
+
+a.button {
+	background: #1078b9;
+	display: inline-block;
+	height: 34px;
+	line-height: 35px;
+	margin: 0 5px 2px 2px;
+	padding: 0 11px;
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff!important;
+	cursor: pointer;
+	text-transform: uppercase;
+	-webkit-transition: background-color 0.12s ease-out;
+	-moz-transition: background-color 0.12s ease-out;
+	-o-transition: background-color 0.12s ease-out;
+	transition: background-color 0.12s ease-out;
+	text-decoration: none;
+}
+a.button:hover {background: #e89e44;}

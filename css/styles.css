@@ -159,3 +159,5 @@ a.button {
 	text-decoration: none;
 }
 a.button:hover {background: #e89e44;}
+
+td.jobs-applynow a {width: 200px;}
